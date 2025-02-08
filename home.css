@@ -1,0 +1,27 @@
+nav {
+    border-width: 30px;
+    background-color: white;
+    border-bottom: 0.1px solid gray;
+    width:"100%";
+    padding: 20px;
+}
+
+h3 {
+    display: inline;
+}
+main {
+    background-color:#efefef;
+    border-bottom:1px solid black;
+    width:"100%";
+    height: 700px;
+
+}
+
+p {
+    display: block;
+}
+
+table {
+    height: 200px;
+}
+
