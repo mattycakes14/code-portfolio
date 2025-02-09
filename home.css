@@ -4,24 +4,39 @@ nav {
     border-bottom: 0.1px solid gray;
     width:"100%";
     padding: 20px;
+    text-align: center;
 }
-
+a{
+}
 h3 {
     display: inline;
 }
 main {
-    background-color:#efefef;
+    background-color:#f2fdfe;
     border-bottom:1px solid black;
     width:"100%";
     height: 700px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 350px;
 }
 
-p {
+p{
     display: block;
 }
-
-table {
-    height: 200px;
+td{
+   padding: 30px;
 }
 
+#portfolio{
+    margin-left: 20px;
+}
+
+#header{
+    font-size: 30px;
+}
+
+#skill-set td{
+    background-color:#f2fdfe;
+}
