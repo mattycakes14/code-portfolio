@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <head>
   <link href="home.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
 </head>
 <html>
   <body>
     <nav>
       <div>
-        <h3>Matt Lau</h3>
+        <h3 id="logo">Matt Lau</h3>
       </div>
       <div class="links">
+        <a href="index.html">Home</a>
         <a href="tabs/about-me.html">About me</a>
         <a id="portfolio" href="tabs/portfolio.html">Portfolio</a>
       </div>
     </nav>
     <main>
-      <h2>Full Stack Developer</h2>
-      <p>LinkedIn, GitHub, Resume, etc.</p>
+      <div>
+        <h3 id="name">Hey, I am Matt</h3>
+      </div>
+      <div>
+        <h2>
+          Building <span>cross-platform</span><br />
+          mobile and web apps
+        </h2>
+      </div>
+      <section>
+        <figure>
+          <a
+            href="https://www.linkedin.com/in/matt-lau-7b482531b/"
+            target="_blank"
+          >
+            <img id="linkedIn" src="assets/linkedin.png" alt="LinkedIn" />
+          </a>
+        </figure>
+        <figure>
+          <a href="https://github.com/mattycakes14" target="_blank">
+            <img id="gitHub" src="assets/github.png" alt="GitHub" />
+          </a>
+        </figure>
+      </section>
     </main>
-    <section>
-      <table>
-        <thead>
-          <tr>
-            <td id="header">Skills</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr id="skill-set">
-            <td>React Native</td>
-            <td>Firebase Console</td>
-            <td>HTML and CSS</td>
-            <td>Git</td>
-          </tr>
-        </tbody>
-      </table>
+    <section class="skill-section">
+      <header>
+        <h4>My Skills</h4>
+      </header>
     </section>
   </body>
 </html>
