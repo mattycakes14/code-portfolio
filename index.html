@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<head>
-  <link href="home.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet"
-  />
-</head>
 <html>
+  <head>
+    <link href="home.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
   <body>
-    <nav>
+    <nav class="main-nav">
       <div>
         <h3 id="logo">Matt Lau</h3>
       </div>
@@ -30,26 +30,54 @@
           mobile and web apps
         </h2>
       </div>
-      <section>
-        <figure>
+      <section class="contacts-container">
+        <nav class="contacts">
           <a
             href="https://www.linkedin.com/in/matt-lau-7b482531b/"
             target="_blank"
           >
             <img id="linkedIn" src="assets/linkedin.png" alt="LinkedIn" />
           </a>
-        </figure>
-        <figure>
+        </nav>
+        <nav class="contacts">
           <a href="https://github.com/mattycakes14" target="_blank">
             <img id="gitHub" src="assets/github.png" alt="GitHub" />
           </a>
-        </figure>
+        </nav>
       </section>
     </main>
     <section class="skill-section">
       <header>
         <h4>My Skills</h4>
       </header>
+      <article class="skills-container">
+        <div class="skills-inner-container">
+          <div class="skill-img-container">
+            <img class="skill-img" src="assets/physics.png" alt="React Logo" />
+          </div>
+          <div class="skill-header-container">
+            <h4 class="skill-name">React Native & React JS</h4>
+          </div>
+          <div class="skill-description-container">
+            <p class="skill-description">
+              Built a wildfire relief mobile app that catered<br />
+              to those devastaed by LA fires (LiftUp). Built <br />
+              another mobile app to connect university students<br />
+              to local barbers to address transportation and other costs
+            </p>
+          </div>
+        </div>
+        <div class="skills-inner-container">
+          <div>
+            <div></div>
+          </div>
+        </div>
+        <div class="skills-inner-container">
+          <div>
+            <p>hi</p>
+          </div>
+        </div>
+      </article>
     </section>
   </body>
 </html>

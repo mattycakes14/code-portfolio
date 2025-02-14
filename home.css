@@ -1,12 +1,3 @@
-nav {
-  background-color: white;
-  border-bottom: 0.1px solid gray;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 h2 {
   font-family: "Roboto", serif;
   font-weight: bold;
@@ -41,10 +32,6 @@ a {
 span {
   color: #5e3bee;
 }
-section {
-  display: flex;
-  margin-left: 0px;
-}
 header {
   margin-left: 83px;
   margin-top: 40px;
@@ -52,6 +39,13 @@ header {
   font-family: Roboto;
   font-weight: bold;
 }
+.contacts-container {
+  border: 5px solid black;
+  height: 100px;
+  display: flex;
+  width: 300px;
+}
+
 section figure:first-child {
   margin-right: 0px;
   margin-left: 0px;
@@ -59,14 +53,58 @@ section figure:first-child {
 section figure:nth-child(2) {
   margin-left: 0px;
 }
+.skills-inner-container {
+  background-color: #f5fcff;
+  width: 350px;
+  height: 280px;
+  border-radius: 10px;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 5px solid black;
+  height: 300px;
+}
 .skill-section {
   height: 400px;
+  margin-bottom: 170px;
+}
+.skill-img-container {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.skill-header-container {
+  margin-left: 30px;
+}
+.skill-description-container {
+  margin-left: 30px;
+}
+.skill-img {
+  width: 60px;
+  height: 60px;
+}
+.skill-name {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 25px;
+}
+.skill-description {
+  font-family: roboto;
+  font-size: 13px;
 }
 .links {
   display: flex;
   justify-content: center;
   margin-right: 80px;
   flex-grow: 1;
+}
+.main-nav {
+  background-color: white;
+  border-bottom: 0.1px solid gray;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 a:hover {
   color: #5e3bee;
