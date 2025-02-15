@@ -41,7 +41,9 @@ header {
 .contacts-container {
   height: 100px;
   display: flex;
-  width: 300px;
+  justify-content: space-between;
+  width: 180px;
+  margin-top: 20px;
 }
 
 section figure:first-child {
@@ -104,6 +106,13 @@ section figure:nth-child(2) {
   justify-content: space-between;
   align-items: center;
 }
+.stock-container {
+  display: flex;
+  justify-content: space-between;
+}
+.intro-container {
+  width: 200px;
+}
 a:hover {
   color: #5e3bee;
 }
@@ -119,6 +128,7 @@ a:hover {
   background-color: #f2fdfe;
 }
 #logo {
+  font-size: 20px;
   margin-left: 20px;
   font-family: Roboto;
 }
@@ -129,4 +139,19 @@ a:hover {
 #gitHub {
   width: 40px;
   height: 40px;
+}
+#leetCode {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+#stock-image {
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  right: 70px;
+  top: 250px;
+}
+.contact-links {
+  padding: 0px;
 }
