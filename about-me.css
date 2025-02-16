@@ -63,6 +63,29 @@ a:hover {
   text-align: center;
   font-family: Roboto;
 }
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 100px;
+}
+.timeline-container {
+  padding: 10px 50px;
+  position: relative;
+  width: 45%;
+}
+.text-box {
+  padding: 20px 30px;
+  margin-top: 20px;
+  background-color: #5e3bee;
+  position: relative;
+  border-radius: 6px;
+}
+.left-container {
+  left: 0px;
+}
+.right-container {
+  left: 100%;
+}
 #logo {
   font-size: 20px;
   margin-left: 85px;
