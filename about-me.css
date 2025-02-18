@@ -90,9 +90,23 @@ a:hover {
   position: absolute;
   top: 600px;
   width: 2px;
-  height: 120%;
+  height: 300%;
   background-color: black;
   left: 49%;
+}
+.event-headers {
+  font-family: Roboto;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #5e3bee;
+  width: 140px;
+}
+.event-date {
+  font-family: Roboto;
+  font-weight: 500;
+}
+.text-box p {
+  font-family: Roboto;
+  font-size: 14px;
 }
 #logo {
   font-size: 20px;
