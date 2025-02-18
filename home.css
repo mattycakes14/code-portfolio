@@ -58,6 +58,7 @@ section figure:nth-child(2) {
   width: 350px;
   height: 280px;
   border-radius: 10px;
+  overflow: auto;
 }
 .skills-container {
   display: flex;
